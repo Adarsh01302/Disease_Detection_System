@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+ID_PASS.txt
+
+# Model weights and large binaries
+models/*.h5
+models/*.hdf5
+
+# Static and media uploads if generated locally
+media/
+
+# Python environment
+venv/
+env/
+.venv/
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Visual Studio Code settings
+.history/
